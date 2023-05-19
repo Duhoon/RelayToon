@@ -1,0 +1,36 @@
+########### client igonre
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Developer note: near.gitignore will be renamed to .gitignore upon project creation
+# dependencies
+client/node_modules
+client/.pnp
+client/.pnp.js
+
+# build
+client/out
+client/dist
+
+# keys
+client/templates/react/neardev
+
+# testing
+client/coverage
+
+# production
+client/build
+
+# misc
+client/.DS_Store
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+client/.cache
+
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+
+########### server ignore
